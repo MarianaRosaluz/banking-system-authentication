@@ -5,13 +5,9 @@
 	<dependencies>
 		<dependency>
 			<groupId>br.rosaluz.banking.system.authentication</groupId>
-			<artifactId>banking-system-authentication-core</artifactId>
+			<artifactId>banking-system-authentication-business</artifactId>
 			<version>1.0-SNAPSHOT</version>
 			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
 		</dependency>
 	</dependencies>
 	<parent>

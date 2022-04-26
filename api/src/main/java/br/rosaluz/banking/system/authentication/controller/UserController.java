@@ -42,7 +42,7 @@ public class UserController {
     public ResponseEntity<?> create(@RequestBody @Valid UserDTO userDTO) throws Exception {
 
         userDTO.setPassword(encoder.encode(userDTO.getPassword()));
-        userService.create(conversionService.convert(userDTO,User.class));
+        userService.create(conversionService.convert(userDTO, User.class));
 
 
         return ResponseEntity.ok().build();
