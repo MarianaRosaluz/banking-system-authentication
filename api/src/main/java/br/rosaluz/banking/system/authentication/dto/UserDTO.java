@@ -15,7 +15,7 @@ public class UserDTO {
 
     private  String name;
     private String document;
-    private Date birthDate;
+    private String birthDate;
     private String motherName;
     private  String  login;
     private String  password;

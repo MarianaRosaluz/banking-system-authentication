@@ -27,7 +27,7 @@ public class User implements UserDetails {
     @NotNull @Column(unique=true)
     private String document;
     @NotNull
-    private Date birthDate;
+    private String birthDate;
     private String motherName;
     @NotNull @Column(unique=true)
     private  String login;
