@@ -33,6 +33,7 @@ public class User implements UserDetails {
     private  String login;
     @NotNull
     private String  password;
+    private String accountNumber;
 
 
     @Override

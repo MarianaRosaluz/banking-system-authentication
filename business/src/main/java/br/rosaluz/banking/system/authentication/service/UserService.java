@@ -7,10 +7,12 @@ import java.util.Optional;
 
 public interface UserService {
 
-    public void create(User user) throws Exception;
-    public User saveUser(User user);
-    public Optional<User> findByLogin(String login);
-    public Optional<User> findById(Long id);
-    public boolean validateLoginAlredyExist(String login);
+    void create(User user) throws Exception;
+    User saveUser(User user);
+    void process(String menssage);
+    Optional<User> findByLogin(String login);
+    Optional<User> findById(Long id);
+    boolean validateLoginAlredyExist(String login);
+    void updateWithAccount(Long id, String accountNumber);
 
 }
