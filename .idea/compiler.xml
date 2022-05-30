@@ -8,13 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="data-provider" />
         <module name="api" />
-        <module name="worker" />
         <module name="business" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="banking-system (1)" target="1.8" />
       <module name="core" target="8" />
+      <module name="worker" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

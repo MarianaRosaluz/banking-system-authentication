@@ -2,10 +2,8 @@ package br.rosaluz.banking.system.authentication.service;
 
 
 import br.rosaluz.banking.system.authentication.model.User;
-import br.rosaluz.banking.system.authentication.producer.UserProducer;
 import br.rosaluz.banking.system.authentication.repository.UserRepository;
 import lombok.var;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -14,8 +12,6 @@ import java.util.Optional;
 @Service
 public class UserServiceImpl implements  UserService {
 
-    @Autowired
-    private UserProducer userProducer;
 
     private UserRepository userRepository;
 
@@ -32,7 +28,6 @@ public class UserServiceImpl implements  UserService {
 
 
           saveUser(user);
-        userProducer.send(user);
 
     }
 
