@@ -10,6 +10,7 @@
         <module name="api" />
         <module name="worker" />
         <module name="business" />
+        <module name="banking-system-authentication-worker" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api" options="-parameters" />
       <module name="banking-system" options="-parameters" />
+      <module name="banking-system-authentication-worker" options="-parameters" />
       <module name="business" options="-parameters" />
       <module name="core" options="-parameters" />
       <module name="data-provider" options="-parameters" />

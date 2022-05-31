@@ -1,0 +1,4 @@
+/Users/mariana.rosaluz/Projects/University/finalProjectDevelopmentLab/banking-system-authetication/worker/src/main/java/br/rosaluz/banking/system/authentication/consumer/config/KafkaConsumerConfig.java
+/Users/mariana.rosaluz/Projects/University/finalProjectDevelopmentLab/banking-system-authetication/worker/src/main/java/br/rosaluz/banking/system/authentication/consumer/dto/AccountConsumerMenssageDTO.java
+/Users/mariana.rosaluz/Projects/University/finalProjectDevelopmentLab/banking-system-authetication/worker/src/main/java/br/rosaluz/banking/system/authentication/processor/UserAccountProcessor.java
+/Users/mariana.rosaluz/Projects/University/finalProjectDevelopmentLab/banking-system-authetication/worker/src/main/java/br/rosaluz/banking/system/authentication/consumer/AccountConsumer.java

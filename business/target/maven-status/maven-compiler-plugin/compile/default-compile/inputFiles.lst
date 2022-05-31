@@ -1,0 +1,9 @@
+/Users/mariana.rosaluz/Projects/University/finalProjectDevelopmentLab/banking-system-authetication/business/src/main/java/br/rosaluz/banking/system/authentication/producer/config/KafkaProducerConfig.java
+/Users/mariana.rosaluz/Projects/University/finalProjectDevelopmentLab/banking-system-authetication/business/src/main/java/br/rosaluz/banking/system/authentication/service/UserServiceImpl.java
+/Users/mariana.rosaluz/Projects/University/finalProjectDevelopmentLab/banking-system-authetication/business/src/main/java/br/rosaluz/banking/system/authentication/producer/UserProducer.java
+/Users/mariana.rosaluz/Projects/University/finalProjectDevelopmentLab/banking-system-authetication/business/src/main/java/br/rosaluz/banking/system/authentication/service/UserService.java
+/Users/mariana.rosaluz/Projects/University/finalProjectDevelopmentLab/banking-system-authetication/business/src/main/java/br/rosaluz/banking/system/authentication/service/TokenService.java
+/Users/mariana.rosaluz/Projects/University/finalProjectDevelopmentLab/banking-system-authetication/business/src/main/java/br/rosaluz/banking/system/authentication/service/AuthenticateService.java
+/Users/mariana.rosaluz/Projects/University/finalProjectDevelopmentLab/banking-system-authetication/business/src/main/java/br/rosaluz/banking/system/authentication/producer/dto/converter/UserToUserMessageDTO.java
+/Users/mariana.rosaluz/Projects/University/finalProjectDevelopmentLab/banking-system-authetication/business/src/main/java/br/rosaluz/banking/system/authentication/producer/dto/UserMessageDTO.java
+/Users/mariana.rosaluz/Projects/University/finalProjectDevelopmentLab/banking-system-authetication/business/src/main/java/br/rosaluz/banking/system/authentication/service/TokenServiceImpl.java
