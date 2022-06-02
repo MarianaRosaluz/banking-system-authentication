@@ -17,12 +17,9 @@ public class AccountConsumer {
     @Value(value = "${topic.consumer.name}")
     private String topic;
 
-    @Value(value = "${spring.kafka.group-id}")
-    private String groupId;
-
     private UserAccountProcessor userAccountProcessor;
 
-    @KafkaListener(topics = "${topic.consumer.name}", groupId = "${spring.kafka.group-id}", containerFactory = "transferKafkaListenerContainerFactory")
+    @KafkaListener(topics = "${topic.consumer.name}", containerFactory = "transferKafkaListenerContainerFactory")
     public void listenTopicAccount(ConsumerRecord<String, AccountConsumerMenssageDTO> record){
         log.info("Received Message " + record.partition());
         log.info("Received Message " + record.value());
