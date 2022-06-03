@@ -40,11 +40,11 @@ __consumer_offsets 2 0
 __consumer_offsets 43 0
 __consumer_offsets 6 0
 __consumer_offsets 14 0
-banking.system.user 1 0
+banking.system.user 1 1
 banking.system.authentication 1 0
 banking.system.transfer 0 0
 __consumer_offsets 20 0
-__consumer_offsets 0 0
+__consumer_offsets 0 3
 __consumer_offsets 44 0
 __consumer_offsets 39 0
 banking.system.authentication 2 1

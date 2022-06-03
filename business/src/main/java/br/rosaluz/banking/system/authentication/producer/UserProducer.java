@@ -16,17 +16,15 @@ public class UserProducer {
     private static final Logger logger = LoggerFactory.getLogger(UserProducer.class);
     private final String topic;
     private final KafkaTemplate<String, UserMessageDTO> kafkaTemplate;
-    private  final  String key;
 
-    public UserProducer(@Value("${topic.name}") String topic, KafkaTemplate<String, UserMessageDTO> kafkaTemplate, @Value("${cluster.key}") String key) {
+    public UserProducer(@Value("${topic.name}") String topic, KafkaTemplate<String, UserMessageDTO> kafkaTemplate) {
         this.topic = topic;
         this.kafkaTemplate = kafkaTemplate;
-        this.key = key;
     }
 
     public void send(User user) {
         var transferMessageDTO = UserToUserMessageDTO.convert(user);
-        kafkaTemplate.send(topic, key, transferMessageDTO).addCallback(
+        kafkaTemplate.send(topic, transferMessageDTO).addCallback(
                 success -> logger.info("Messagem send" + success.getProducerRecord().value()),
                 failure -> logger.info("Message failure" + failure.getMessage())
         );
