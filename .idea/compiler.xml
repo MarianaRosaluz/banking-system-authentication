@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="business" />
         <module name="data-provider" />
+        <module name="banking-system-authentication-data-provider" />
         <module name="api" />
         <module name="worker" />
-        <module name="business" />
         <module name="banking-system-authentication-worker" />
+        <module name="banking-system-authentication-business" />
+        <module name="banking-system-authentication-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +25,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api" options="-parameters" />
       <module name="banking-system" options="-parameters" />
+      <module name="banking-system-authentication-api" options="-parameters" />
+      <module name="banking-system-authentication-business" options="-parameters" />
+      <module name="banking-system-authentication-data-provider" options="-parameters" />
       <module name="banking-system-authentication-worker" options="-parameters" />
       <module name="business" options="-parameters" />
       <module name="core" options="-parameters" />
