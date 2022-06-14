@@ -11,6 +11,7 @@ public interface UserService {
     User saveUser(User user);
     void process(String menssage);
     Optional<User> findByLogin(String login);
+    Optional<User> findByDocument(String document);
     Optional<User> findById(Long id);
     boolean validateLoginAlredyExist(String login);
     void updateWithAccount(Long id, String accountNumber);

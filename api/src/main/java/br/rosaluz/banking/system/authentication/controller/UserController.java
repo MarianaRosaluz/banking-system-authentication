@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
-@CrossOrigin(origins = "*")
+
 @RestController
 @RequestMapping(value = "/api/banking/system/login", produces="application/json")
 @Api(value="API REST Banking System")
@@ -37,6 +37,7 @@ public class UserController {
         return ResponseEntity.ok(new UserResponseDTO(valid));
 
     }
+
 
     @PostMapping("/create")
     public ResponseEntity<?> create(@RequestBody @Valid UserDTO userDTO) throws Exception {

@@ -37,14 +37,12 @@ public class AuthenticationController {
     {
         UsernamePasswordAuthenticationToken dataLogin = loginDTO.converter();
 
-        try{
+
             Authentication authentication = authManager.authenticate(dataLogin);
             String token = tokenService.generateToken(authentication);
             return ResponseEntity.ok(new TokenDTO(token,"Bearer"));
 
-        }catch (AuthenticationException e){
-            //TODO RETORNAR MENSAGEM CERTA DE ERRO NO USUARIO OU SENHA
-            return ResponseEntity.badRequest().build();
-        }
+  //TODO TRATAR EXCEPTION SPRING SECURITY
+
     }
 }

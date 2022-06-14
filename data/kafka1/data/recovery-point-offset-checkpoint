@@ -1,5 +1,5 @@
 0
-59
+69
 __consumer_offsets 22 0
 __consumer_offsets 30 0
 __consumer_offsets 8 0
@@ -8,15 +8,19 @@ __consumer_offsets 21 0
 __consumer_offsets 4 0
 __consumer_offsets 27 0
 __consumer_offsets 7 0
+banking.system.account 0 0
 __consumer_offsets 9 0
+banking.system.Pix 1 0
 __consumer_offsets 46 0
+banking.system.payment 1 0
 __consumer_offsets 25 0
+banking.system.Pix 2 0
 __consumer_offsets 35 0
 __consumer_offsets 41 0
 __consumer_offsets 33 0
 __consumer_offsets 23 0
 __consumer_offsets 49 0
-banking.system.user 2 0
+banking.system.user 2 9
 __consumer_offsets 47 0
 __consumer_offsets 16 0
 __consumer_offsets 28 0
@@ -24,11 +28,13 @@ __consumer_offsets 31 0
 __consumer_offsets 36 0
 __consumer_offsets 42 0
 __consumer_offsets 3 0
+banking.system.transfer 2 3
 __consumer_offsets 18 0
 __consumer_offsets 37 0
 __consumer_offsets 15 0
 __consumer_offsets 24 0
 banking.system.authentication 0 1
+banking.system.account 1 0
 __consumer_offsets 38 0
 __consumer_offsets 17 0
 __consumer_offsets 48 0
@@ -40,22 +46,26 @@ __consumer_offsets 2 0
 __consumer_offsets 43 0
 __consumer_offsets 6 0
 __consumer_offsets 14 0
-banking.system.user 1 0
+banking.system.user 1 6
 banking.system.authentication 1 0
-banking.system.transfer 0 0
+banking.system.transfer 0 5
+banking.system.account 2 1
 __consumer_offsets 20 0
-__consumer_offsets 0 0
+__consumer_offsets 0 5
 __consumer_offsets 44 0
 __consumer_offsets 39 0
 banking.system.authentication 2 1
+banking.system.payment 2 0
 __consumer_offsets 12 0
 __consumer_offsets 45 0
 __consumer_offsets 1 0
-banking.system.user 0 0
+banking.system.user 0 7
 __consumer_offsets 5 0
 __consumer_offsets 26 0
 __consumer_offsets 29 0
-__consumer_offsets 34 3
+__consumer_offsets 34 36
 __consumer_offsets 10 0
+banking.system.payment 0 0
 __consumer_offsets 32 0
 __consumer_offsets 40 0
+banking.system.transfer 1 3

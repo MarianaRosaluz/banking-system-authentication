@@ -1,0 +1,6 @@
+{
+  "timestamp": "2022-06-12T01:00:29.053+00:00",
+  "status": 403,
+  "error": "Forbidden",
+  "path": "/api/banking/system/authentication"
+}
